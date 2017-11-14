@@ -1,4 +1,5 @@
 <?php
+//creado por patiño
     require('header.php');
 
 $msg= $_GET['msg'];
