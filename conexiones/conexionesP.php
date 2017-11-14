@@ -11,7 +11,7 @@ function conectar(){
 	
     
     $user="root";
-    $pass="speedtouch";
+    $pass="";
     $server="localhost";
     $db="sistema_iglesia";
     $con= mysql_connect($server,$user,$pass) or die("Tenemos un error al conectar a la base de datos".mysql_error());
