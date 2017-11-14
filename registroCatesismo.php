@@ -2,7 +2,7 @@
     require('header.php');
 
 $msg= $_GET['msg'];
-if($msg=1){
+if($msg==1){
     
     echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
   <strong>Error en el registro!</strong> Estudiante ya existe
